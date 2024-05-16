@@ -1,0 +1,74 @@
+.login {
+    background-color: rgba(245, 239, 239, 0.822);
+    width: 25%;
+    height: 70%; /* Cambié esto para que sea un tamaño fijo */
+    border-radius: 25px;
+    margin-top: 20px; /* Ajusté el margen superior */
+}
+
+/* Consulta de medios para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .login {
+        height: 50px; /* Ajusta el alto para dispositivos móviles */
+        margin-top: 10px; /* Ajusta el margen superior para dispositivos móviles */
+    }
+}
+
+.controls{
+    width:70%;
+    height:30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:16px;
+
+}
+
+.Cuadricula{
+
+    width:90%;
+    height:84%;
+    background-color:rgba(255, 255, 255, 0.815);
+    border-radius:13px;
+}
+    
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    width:70%;
+    height:30px;
+    background-color:rgba(115, 207, 115, 0.959);
+}
+
+.b a{
+    text-decoration:none;
+    color:black;
+}
+
+.imagen1{
+    float:left;
+}
+
+.segundotexto kbd{
+    float:left;
+}
+
+.imagen2{
+    float:right;
+}
+
+.droncomida kbd{
+    font-size:20px;
+}
+
+.droncomidaimagen {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.droncomida{
+    background-color:rgb(151, 160, 255);
+    border-radius:20px;
+    width:200px;
+}
